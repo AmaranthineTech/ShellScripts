@@ -11,13 +11,13 @@ The folderCreator.zsh script is the script from the first blog article.
 
 You can download the script and make changes to it. 
 
-# Running the script
-### Option 1:
+## Running the script
+#### Option 1:
 ```SHELL
 zsh folderCreator.zsh
 ```
 
-### Option 2:
+#### Option 2:
 ```SHELL
 chmod ugo+x folderCreator.zsh
 ./folderCreator.zsh
@@ -32,8 +32,8 @@ The folderCreator_v1-1.zsh script is the script from the second blog article.
 
 You can download the script and make changes to it. 
 
-# Running the script
-### Option 1:
+## Running the script
+#### Option 1:
 ```SHELL
 zsh folderCreator_v1-1.zsh <folder name 1> <folder name 2> <folder name 3>
 ```
@@ -43,7 +43,7 @@ Example:
 zsh folderCreator_v1-1.zsh Tools Reports Help
 ```
 
-### Option 2:
+#### Option 2:
 ```SHELL
 chmod ugo+x folderCreator_v1-1.zsh
 ./folderCreator_v1-1.zsh <folder name 1> <folder name 2> <folder name 3>
