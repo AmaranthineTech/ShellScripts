@@ -25,7 +25,7 @@ chmod ugo+x folderCreator.zsh
 This command assumes you are in the correct folder.
 
 # Topic 2
-
+https://arunpatwardhan.com/2021/07/02/shell-scripting-in-macos-part-2/
 
 ---
 The folderCreator_v1-1.zsh script is the script from the second blog article. 
