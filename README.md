@@ -55,3 +55,35 @@ Example:
 ```
 
 This command assumes you are in the correct folder.
+
+# Topic 3
+https://arunpatwardhan.com/2021/07/16/shell-scripting-in-macos-part-3-condition-checks/
+
+---
+The folderCreator_v1-2.zsh script is the script from the second blog article. 
+
+You can download the script and make changes to it. 
+
+## Running the script
+#### Option 1:
+```SHELL
+zsh folderCreator_v1-2.zsh <folder name 1> <folder name 2> <folder name 3>
+```
+
+Example:
+```SHELL
+zsh folderCreator_v1-2.zsh Tools Reports Help
+```
+
+#### Option 2:
+```SHELL
+chmod ugo+x folderCreator_v1-2.zsh
+./folderCreator_v1-2.zsh <folder name 1> <folder name 2> <folder name 3>
+```
+
+Example:
+```SHELL
+./folderCreator_v1-2.zsh Tools Reports Help
+```
+
+This command assumes you are in the correct folder.
