@@ -60,7 +60,7 @@ This command assumes you are in the correct folder.
 https://arunpatwardhan.com/2021/07/16/shell-scripting-in-macos-part-3-condition-checks/
 
 ---
-The folderCreator_v1-2.zsh script is the script from the second blog article. 
+The folderCreator_v1-1.zsh script is the script from the second blog article. 
 
 You can download the script and make changes to it. 
 
@@ -75,15 +75,66 @@ Example:
 zsh folderCreator_v1-2.zsh Tools Reports Help
 ```
 
-#### Option 2:
+# Topic 4
+
+
+---
+The folderCreator_v1-2.zsh script is the script from the third blog article. 
+
+You can download the script and make changes to it. 
+
+NOTE: _*Going forward the command will simply be referred to as folderCreator.zsh. Whenever, we mention this command we are talking about the version in context. So in this case, for topic 4, folderCreator.zsh simply refers to folderCreator_v1-3.zsh.*_
+
+## Running the script
+#### Option 1:
 ```SHELL
-chmod ugo+x folderCreator_v1-2.zsh
-./folderCreator_v1-2.zsh <folder name 1> <folder name 2> <folder name 3>
+zsh folderCreator.zsh <folder name 1> <folder name 2> <folder name 3>
 ```
 
 Example:
 ```SHELL
-./folderCreator_v1-2.zsh Tools Reports Help
+zsh folderCreator.zsh Tools Reports Help
 ```
 
-This command assumes you are in the correct folder.
+#### Option 2:
+```SHELL
+chmod ugo+x folderCreator.zsh
+./folderCreator.zsh <folder name 1> <folder name 2> <folder name 3>
+```
+
+Example:
+```SHELL
+./folderCreator.zsh Tools Reports Help
+```
+These commands assumes you are in the correct folder.
+
+## Getting help
+#### Option 1:
+```SHELL
+zsh folderCreator.zsh -h
+```
+
+#### Option 2:
+```SHELL
+./folderCreator.zsh -help
+```
+
+#### Option 3:
+```SHELL
+man ./folderCreator.zsh
+```
+
+These commands assumes you are in the correct folder.
+
+## Getting the version number
+#### Option 1:
+```SHELL
+zsh folderCreator.zsh -v
+```
+
+#### Option 2:
+```SHELL
+./folderCreator.zsh -version
+```
+
+These commands assumes you are in the correct folder.
