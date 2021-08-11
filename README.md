@@ -3,6 +3,14 @@
 # Disclaimer
 _The Software Is Provided "As Is", Without Warranty Of Any Kind, Express Or Implied, Including But Not Limited To The Warranties Of Merchantability, Fitness For A Particular Purpose And Noninfringement. In No Event Shall The Authors Or Copyright Holders Be Liable For Any Claim, Damages Or Other Liability, Whether In An Action Of Contract, Tort Or Otherwise, Arising From, Out Of Or In Connection With The Software Or The Use Or Other Dealings In The Software._
 
+# Table of contents
+| Topic | Description | Link |
+| --- | --- | --- |
+| Topic 1 | Basic script | https://github.com/AmaranthineTech/ShellScripts#topic-1 |
+| Topic 2 | Managing data | https://github.com/AmaranthineTech/ShellScripts#topic-2 |
+| Topic 3 | Condition checks | https://github.com/AmaranthineTech/ShellScripts#topic-3 |
+| Topic 4 | Documentation | https://github.com/AmaranthineTech/ShellScripts#topic-4 |
+
 # Topic 1
 https://arunpatwardhan.com/2021/06/10/shell-scripting-in-macos-part-1/
 
