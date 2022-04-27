@@ -127,11 +127,6 @@ zsh folderCreator.zsh -h
 ./folderCreator.zsh -help
 ```
 
-#### Option 3:
-```SHELL
-man ./folderCreator.zsh
-```
-
 These commands assumes you are in the correct folder.
 
 ## Getting the version number
