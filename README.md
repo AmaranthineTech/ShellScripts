@@ -274,7 +274,7 @@ The folderCreator_v1-6.zsh script is the script from the third blog article.
 
 You can download the script and make changes to it. 
 
-NOTE: _*Going forward the command will simply be referred to as folderCreator.zsh. Whenever, we mention this command we are talking about the version in context. So in this case, for topic 4, folderCreator.zsh simply refers to folderCreator_v1-6.zsh.*_
+NOTE: _*Going forward the command will simply be referred to as folderCreator.zsh. Whenever, we mention this command we are talking about the version in context. So in this case, for topic 7, folderCreator.zsh simply refers to folderCreator_v1-6.zsh.*_
 
 ## Running the script
 #### Option 1:
