@@ -1,9 +1,9 @@
-.\"Copyright (c) 2015-2021 Amaranthine.  All Rights Reserved.
+.\"Copyright (c) 2015-2022 Amaranthine.  All Rights Reserved.
 .\"
 .\"
-.Dd 10 August 2021
-.Dt folderCreator 1
-.Os "macOS"
+.Dd August 10, 2021
+.Dt FOLDERCREATOR 1
+.Os macOS 11
 .Sh NAME
 .Nm folderCreator
 .Nd Folder creation utility
@@ -21,16 +21,20 @@
 .\" ======================== BEGIN DESCRIPTION SECTION =========================
 .Sh DESCRIPTION
 .Nm
-creates 3 folders in the home folder. In case the folder names are not provided then the command will create folders with default names "Tools", "Reports", "Help".
+creates 3 folders in the home folder.
+In case the folder names are not provided then the command
+will create folders with default names "Tools", "Reports", "Help".
+.Pp
+The user is also prompted via the graphical user interface for names that should be used for the folders.
+This is optional and the user can cancel it.
 .Pp
 There is also the option of getting help via the help verb.
 .Pp
-- This script is intended for creating the custom folders that are required on all corporate computers. 
+- This script is intended for creating the custom folders that are required on all corporate computers.
 .Pp
 - Run this script on a new computer or a computer being reassigned to another employee.
 .Pp
 - This script can run on all computers.
-.Pp
 .\" ----------------------------------------------------------------------------
 .\" ------------------------- BEGIN TERMINOLOGY LIST ---------------------------
 .Sh VERBS
@@ -49,18 +53,20 @@ command.
 .Sh REQUIREMENTS
 The following are the minimum requirements to get the script running.
 .Bl -hang -offset 4n -width "xxxxxxxxxxxx" -compact
-.It Shell: 
+.It Shell:
 zsh
-.It OS: 
+.It OS:
 macOS Big Sur 11.4 or later
-.It Dependencies: 
+.It Dependencies:
 None
 .El
+.Ev HOME
 .\" ============================================================================
 .\" ======================== BEGIN INSTALLATION SECTION ========================
 .Sh INSTALLATION
 .Nm
-can be installed anywhere you wish. However, there are certain locations that are recommended.
+can be installed anywhere you wish.
+However, there are certain locations that are recommended.
 .Bl -hang -offset 4n -width "xxxxxxxxxxxx" -compact
 .It Location:
 /Library/Scripts/
@@ -70,7 +76,6 @@ rwx r-x r-x
 .\" ============================================================================
 .\" ======================== BEGIN USAGE SECTION ========================
 .Sh USAGE
-.Pp
 .Nm
 .Ar folder1
 .Ar folder2
@@ -78,33 +83,31 @@ rwx r-x r-x
 .Pp
 Will create folders with your own names.
 .Pp
-.Pp
 .Nm
 .Ar -h
-.Br
 OR
-.Br
 .Nm
 .Ar -help
-.Pp
 .Pp
 Will invoke the help utility.
 .Pp
 .Nm
 .Ar -v
-.Br
 OR
-.Br
 .Nm
 .Ar -version
 .Pp
-.Pp
 Will print the version number in stdout.
+.Ss GUI Interaction
+In all cases the user is always prompted for entering folder names via the graphical user interface.
+Therefore this script triggers a gui popup.
+In case this is not the desired behavior then the appropriate lines of code will need to be commented out.
 .\" ============================================================================
 .\" ======================== BEGIN WARNING/CAUTION SECTION ========================
 .Sh WARNING/CAUTION
-.Nm 
-does not perform any validation of names. The only options that 
+.Nm
+does not perform any validation of names.
+The only options that
 .Nm
 accepts are
 .Ar -h
@@ -113,18 +116,29 @@ and
 verbs or the
 .Ar -v
 and
-.Ar -version 
-verbs. If the script does not see the 
-.Ar -h 
-, 
-.Ar -help 
-or the 
+.Ar -version
+verbs.
+If the script does not see the
+.Ar -h
+,
+.Ar -help
+or the
 .Ar -v
 ,
 .Ar -version
-options then it will assume that the data being passed in is the name of the folder. The user of the 
+options then it will assume that the data being passed in is the name of the folder.
+The user of the
 .Nm
 command must ensure that the desired folder names are passed in.
+The user will also be prompted, via the graphical user interface, if he/she wishes to provide the names for the folders.
+If yes, then there will be subsequent
+prompts asking for the folder names.
+.\" ============================================================================
+.\" ======================== BEGIN EXIT STATUS SECTION =========================
+.Sh EXIT STATUS
+In most situations,
+.Nm
+exits 0 on success
 .\" ============================================================================
 .\" ======================== BEGIN EXAMPLES SECTION ========================
 .Sh EXAMPLES
@@ -133,7 +147,7 @@ command must ensure that the desired folder names are passed in.
 .Ar Results
 .Ar Assistant
 .Pp
-This will create 3 folders 
+This will create 3 folders
 .Sy Resources
 ,
 .Sy Results
@@ -149,29 +163,31 @@ This will create 3 folders with the default names
 .Nm
 .Ar Apps
 .Pp
-This will use the 
+This will use the
 .Sy Apps
 name for the first folder but the default names for the last 2 folders.
-.Pp
 .\" ============================================================================
 .\" ======================== BEGIN DIAGNOSTICS SECTION ========================
 .Sh DIAGNOSTICS
 The script produces a log file called
 .Sy ~/Library/Logs/folderCreator_log_v1-x.log
 .Pp
-This file is typically located in the user's home folder log folder. The x represents the version number of
+This file is typically located in the user's home folder log folder.
+The x represents the version number of
 .Nm
 .Pp
 You can view the logs for each respective version.
 .\" ============================================================================
 .\" ======================== BEGIN COPYRIGHT SECTION ========================
 .Sh COPYRIGHT
-Copyright (c) Amaranthine 2015-2021. All rights reserved.
+Copyright (c) Amaranthine 2015-2021.
+All rights reserved.
 https://amaranthine.in
-.Pp
 .\" ============================================================================
-.\" ======================== BEGIN EXIT STATUS SECTION =========================
-.Sh EXIT STATUS
-In most situations,
-.Nm
-exits 0 on success
+.\" ======================== BEGIN CONTACT SECTION ========================
+.Sh CONTACT DETAILS
+.An Author: Arun Patwardhan
+.Pp
+Website: https://amaranthine.in
+.Pp
+Email: arun@amaranthine.co.in
