@@ -90,7 +90,7 @@ zsh folderCreator_v1-2.zsh Tools Reports Help
 ```
 
 # Topic 4
-
+https://arunpatwardhan.com/2021/07/08/shell-scripting-in-macos-part-4-documentation-and-help/
 
 ---
 The folderCreator_v1-3.zsh script is the script from the third blog article. 
