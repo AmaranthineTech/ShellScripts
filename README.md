@@ -10,12 +10,12 @@ _The Software Is Provided "As Is", Without Warranty Of Any Kind, Express Or Impl
 | Topic 2 | Managing data | https://github.com/AmaranthineTech/ShellScripts#topic-2 |
 | Topic 3 | Condition checks | https://github.com/AmaranthineTech/ShellScripts#topic-3 |
 | Topic 4 | Documentation | https://github.com/AmaranthineTech/ShellScripts#topic-4 |
-| Topic 5 | Loops |  |
-| Topic 6 | User interaction |   |
-| Topic 7 | Miscellaneous |   |
-| Topic 8 | Arrays & Dictionaries |   |
-| Topic 9 | Automating scripts |   |
-| Topic 10 | Distribution |   |
+| Topic 5 | Loops | https://github.com/AmaranthineTech/ShellScripts#topic-5 |
+| Topic 6 | User interaction |  https://github.com/AmaranthineTech/ShellScripts#topic-6 |
+| Topic 7 | Miscellaneous | https://github.com/AmaranthineTech/ShellScripts#topic-7  |
+| Topic 8 | Arrays & Dictionaries |  https://github.com/AmaranthineTech/ShellScripts#topic-8 |
+| Topic 9 | Automating scripts |  https://github.com/AmaranthineTech/ShellScripts#topic-9 |
+| Topic 10 | Distribution | https://github.com/AmaranthineTech/ShellScripts#topic-10  |
 
 # Topic 1
 https://arunpatwardhan.com/2021/06/10/shell-scripting-in-macos-part-1/
@@ -149,7 +149,7 @@ zsh folderCreator.zsh -v
 These commands assumes you are in the correct folder.
 
 # Topic 5
-
+https://arunpatwardhan.com/2022/12/19/shell-scripting-in-macos-part-5-loops/
 
 ---
 The folderCreator_v1-4.zsh script is the script from the fifth blog article. 
