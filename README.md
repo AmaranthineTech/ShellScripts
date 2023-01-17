@@ -267,7 +267,7 @@ zsh folderCreator.zsh -v
 These commands assumes you are in the correct folder.
 
 # Topic 7
-
+https://arunpatwardhan.com/2022/05/07/shell-scripting-in-macos-part-7-miscellaneous/
 
 ---
 The folderCreator_v1-6.zsh script is the script from the third blog article. 
