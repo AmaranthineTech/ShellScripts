@@ -385,7 +385,7 @@ zsh folderCreator.zsh -v
 These commands assumes you are in the correct folder.
 
 # Topic 9
-
+https://arunpatwardhan.com/2023/01/25/shell-scripting-in-macos-part-9-automating-scripts/
 
 ---
 This topic uses the answers.sh along with the questions.sh script together.
