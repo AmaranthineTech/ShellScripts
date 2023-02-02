@@ -432,7 +432,7 @@ sudo launchctl bootout system /Library/Launch\ Daemons/in.amaranthine.welcomeMes
 These commands assumes you are in the correct folder.
 
 # Topic 10
-
+https://arunpatwardhan.com/2023/02/02/shell-scripting-in-macos-part-10-distribution/
 
 ---
 The folderCreator.zsh script is the script from the third blog article. 
