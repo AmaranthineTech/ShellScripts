@@ -475,3 +475,6 @@ man folderCreator
 NOTE: _*In case none of the commands work as is then make sure you have placed the items in the correct folder. This will require admin access to the computer. The /usr folder is hidden in the GUI by default. *_
 
 These commands assumes you are in the correct folder.
+
+# DocC documentation for scripts
+https://amaranthinescript.github.io/documentation/foldercreator
