@@ -16,6 +16,7 @@ _The Software Is Provided "As Is", Without Warranty Of Any Kind, Express Or Impl
 | Topic 8 | Arrays & Dictionaries |  https://github.com/AmaranthineTech/ShellScripts#topic-8 |
 | Topic 9 | Automating scripts |  https://github.com/AmaranthineTech/ShellScripts#topic-9 |
 | Topic 10 | Distribution | https://github.com/AmaranthineTech/ShellScripts#topic-10  |
+| Documentation | DocC documentation | https://github.com/AmaranthineTech/ShellScripts#docc-documentation-for-scripts |
 
 # Topic 1
 https://arunpatwardhan.com/2021/06/10/shell-scripting-in-macos-part-1/
